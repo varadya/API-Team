@@ -14,6 +14,13 @@ let doStuff = function(data) {
   // console.log( data.results[1].trackName);
   // console.log( data.results[2].trackName)
   // console.log( data.results[3].trackName);
+  let hms = data.results.day_length;
+  let a = hms.split(':');
+  let s = (+a[0]) * 60 * 60 + (+a[1])*60 + (+a[2]);
+
+  
+  $('#app').append( `<h1>Number of seconds today: ${s}</h1> `); 
+
 }
 
 /************************************
