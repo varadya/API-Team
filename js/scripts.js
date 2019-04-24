@@ -19,7 +19,7 @@ let doStuff = function(data) {
   let s = (+a[0]) * 60 * 60 + (+a[1])*60 + (+a[2]);
 
   
-  $('#app').append( `<h1>Number of seconds today: ${s}</h1> `); 
+  $('#app').append( `<h1>Seconds today: ${s}</h1> `); 
 
 }
 
