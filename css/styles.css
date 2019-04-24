@@ -1,3 +1,36 @@
 * {
-    background-color: coral;
+    margin: 0;
 }
+
+body {
+    height: 1000px;
+    width: 100vw;
+    animation: sky 15s linear;
+  }
+  
+  @keyframes sky {
+    0% {
+      background-color: black;
+    }
+    5% {
+      background-color: darkgrey;
+    }
+    10% {
+      background-color: lightgrey;
+    }
+    15% {
+      background-color: white;
+    }
+    85% {
+      background-color: white;
+    }
+    90% {
+      background-color: lightgrey;
+    }
+    95% {
+      background-color: darkgrey;
+    }
+    100% {
+      background-color: black;
+    }
+  }
