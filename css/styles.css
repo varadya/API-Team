@@ -15,10 +15,15 @@ svg #moon {
   position: relative;
   height: 100vh;
 }
+
+:root {
+  --time: 1s
+}
+
 body {
     height: 1000px;
     width: 100vw;
-    animation: sky  linear;
+    animation: sky var(--time) linear;
   }
   
   @keyframes sky {
