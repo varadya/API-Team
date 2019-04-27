@@ -4,7 +4,7 @@
 
 svg {
   position: absolute;
-  bottom: 0%;
+  bottom: -300px;
 }
 
 svg #moon {
@@ -12,15 +12,11 @@ svg #moon {
 }
 
 #app {
-  position: relative;
-  height: 100vh;
+  
 }
 
-:root {
-  --time: 1s
-}
 
-body {
+/* body {
     height: 1000px;
     width: 100vw;
     animation: sky var(--time) linear;
@@ -51,4 +47,4 @@ body {
     100% {
       background-color: black;
     }
-  }
+  } */
