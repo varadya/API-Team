@@ -15,11 +15,15 @@ let doStuff = function(data) {
   // console.log( data.results[2].trackName)
   // console.log( data.results[3].trackName);
   let hms = data.results.day_length;
-  let a = hms.split(':');
-  let s = (+a[0]) * 60 * 60 + (+a[1])*60 + (+a[2]);
+  let sunset = data.results.sunset;
+  // let a = hms.split(':');
+  // let s = (+a[0]) * 60 * 60 + (+a[1])*60 + (+a[2]);
 
   
-  $('#app').append( `<h1>Seconds today: ${s}</h1> `); 
+  $('#app').append( `<h1>Hours of Daylight: ${hms}</h1> `); 
+
+  $('#app').append( `<h1>Sunset: ${sunset}</h1> `); 
+
 
 }
 
