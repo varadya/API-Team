@@ -27,3 +27,23 @@ $.getJSON( getStuff, doStuff);
 let showStuff = function(data) {
   console.log( data );  
 }
+
+/************************************
+      Sky Transitions
+************************************/ 
+
+// var skyTime = {
+  
+// }
+
+// document.getElementById("sky").animate(
+//   [
+//     {backgroundColor : '#D6826E'},
+//     {backgroundColor: '#572E37'},
+//     {backgroundColor: '#9E5A5A'},
+//     {backgroundColor: '#D6826E'},
+//   ],{
+//     duration: 3000,
+//     iterations: Infinity
+//   }
+// )
